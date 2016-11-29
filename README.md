@@ -18,12 +18,12 @@ triton instance create -w --name=nuxeo ubuntu-14.04 sample-16G --network=sdc_nat
 ```
 
 When this command completes, the install has not finished, but
-rather just started.  The ssh server will not begin accepting
-connections until the install script completes, which can take
-five minutes given even a very fast internet connection for the
-downloads.  When it successfully completes, the nuxeo web
-interface will be running on port 8080.  The following command
-should generate the URL.
+rather just started.  The ssh and web servers will not begin
+accepting connections until the install script completes, which
+can take five minutes given even a very fast internet connection
+for the downloads.  When it successfully completes, the nuxeo
+web interface will be running on port 8080.  The following
+command should generate the URL.
 
 ``` shell
 id=$(json -g 0.id<out.json)
