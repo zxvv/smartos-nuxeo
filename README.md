@@ -29,3 +29,5 @@ the Nuxeo web interface.  This script applies the performance
 tuning reported by Nuxeo in a benchmark of a single server
 instance storing 10 million documents in 1TB of data, described
 here: http://public.dev.nuxeo.com/~ben/bench-10m/
+
+![Screenshot of Dashboard](/../screenshots/nuxeo-screenshot.gif?raw=true "Screenshot of Dashboard")
