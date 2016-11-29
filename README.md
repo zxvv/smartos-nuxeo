@@ -14,6 +14,7 @@ http://blog.smartcore.net.au/nuxeo-ecm-smartos-lx-zone-setup/
 
 To create a zone and install nuxeo, use:
 ``` shell
+wget https://raw.githubusercontent.com/zxvv/smartos-nuxeo/master/install-nuxeo.sh
 triton instance create -w --name=nuxeo ubuntu-14.04 sample-16G --network=sdc_nat --script=./install-nuxeo.sh
 ```
 
